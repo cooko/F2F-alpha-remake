@@ -16,17 +16,9 @@
   left: 345px;
   width: 60px;
 }
-a:link{
-  color:#bada55;
-}
-a:visited{
-  color:#bada55;
-}
-a:hover{
-    color:#D8F482;
-}
 nav{
-  position:absolute;
+  font-size: 1.3em;
+  text-align: right;
 }
 /*-----------------------------------------*/
 /*    content
@@ -64,27 +56,20 @@ nav{
   background-position: 0px -240px;
 
 }
-.hero-text{
+#hero-text{
   color: white;
   font-size: 2em;
   font-family: 'Viga', sans-serif;
 }
-.first{
+#first{
   height:320px;
   padding: 2% 5% 2% 5%;
+  
   background-image: url(../img/hero.png);
   background-size: 100% ;
   background-position: 0px -240px;
-
-  /*  background-color: grey; */
-  /*background-image: url("../img/landing-img.jpg"); */
 }
-p{
-  color:#4D4D4D;
-  line-height:1.5em;
-  font-family: 'Open Sans', sans-serif;
-}
-.intro-p::first-letter { 
+#intro-p::first-letter { 
   background-color: #bada55;
   color: #FFF;
   font-size: 24px;
@@ -93,15 +78,10 @@ p{
   padding: 0 5px;
   border-radius: 3px;
   margin-right: 2px;
-font-family: 'Viga', sans-serif;
+  font-family: 'Viga', sans-serif;
   }
 .guide-img{
   margin: 0% 0% 0% 0%;
-}
-input{
-  width:70%;
-  margin: 10px 0px 10px 0px;
-
 }
 #login-container{
   margin: 0% 10%;
@@ -112,14 +92,28 @@ input{
 body{
   margin:0px;
   background:#EEEBDA;
-
+  background-image:  url("../img/background.png");
 }
 h2{
   color:#bada55;
   font-family: 'Viga', sans-serif;
 
 }
-nav{
-  font-size: 1.3em;
-text-align: right;
+a:link{
+  color:#bada55;
+}
+a:visited{
+  color:#bada55;
+}
+a:hover{
+    color:#D8F482;
+}
+p{
+  color:#4D4D4D;
+  line-height:1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+input{
+  width:70%;
+  margin: 10px 0px 10px 0px;
 }
