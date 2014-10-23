@@ -55,6 +55,7 @@ nav{
 }
 .section{
     padding: 2% 5% 2% 5%;
+    border-bottom: dashed 2px #D3D3D3 ;
 }
 #hero{
   height:320px;
@@ -70,6 +71,7 @@ nav{
 }
 .first{
   height:320px;
+  padding: 2% 5% 2% 5%;
   background-image: url(../img/hero.png);
   background-size: 100% ;
   background-position: 0px -240px;
@@ -83,9 +85,16 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 .intro-p::first-letter { 
-    font-size: 300%;
-    color: #Bada55;
-}
+  background-color: #bada55;
+  color: #FFF;
+  font-size: 24px;
+  font-style:normal;
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 3px;
+  margin-right: 2px;
+font-family: 'Viga', sans-serif;
+  }
 .guide-img{
   margin: 0% 0% 0% 0%;
 }
