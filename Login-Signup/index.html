@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS testing</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="../universal.css">
+	<script src="js/javascript.js"></script>
+
+</head>
+<body>
+	<div id="header" class="split">
+		<div id="trim"></div>
+		<div class="left">
+			Farm-To-Fork
+			<img id="header-logo" src="../img/logo.png">
+		</div>
+		<div class="right">
+			<nav>
+				<a href="../Landing/index.html">Home</a> |
+			</nav>
+		</div>
+	</div>
+	<div id="page_container" class="split">
+		<div class="left">
+			<h1>Login</h1>
+			<div id="login-container">
+				<form action="/login" method="post" onsubmit="return validateForm();" id="login_form">
+					<input type="Email" name="email" placeholder="Email"><br>
+					<input type="Password" name="password" placeholder="Password"><br>
+					<!-- <div class="center"><input type="Submit" value="Sign Up"></div> -->
+				</form>
+				<!-- TEMPORARY - FOR DISPLAY PURPOSES ONLY -->
+				<div class="center-contents">
+					<FORM>
+						<INPUT TYPE="button" value="Login" onClick="parent.location='../Locations/index.html'">
+					</FORM>
+				</div>
+				<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+			</div>
+		</div>
+		<div class="right">
+			<h1>Sign Up</h1>
+			<div id="signup_container">
+				<form action="/signup" method="post" onsubmit="return validateForm();" id="signup_form">
+					<div class="split">
+						<div class="left">
+							<input type="Text" name="first_name" placeholder="First Name">
+						</div>
+						<div class="right">
+							<input type="Text" name="last_name" placeholder="Last Name">
+						</div>
+					</div>
+					<input type="Email" name="email" placeholder="Email"><br>
+					<input type="Password" name="password" placeholder="Password"><br>
+					<input type="Password" name="password_verify" placeholder="Confirm Password"><br>
+					<hr>
+
+					<h2>Location</h2>
+					<label for="country">Country:</label>
+		            <select name="country" form="profile_form" id="select_country" onclick="checkCountry(this)">
+		                <option value="" selected>---Select---</option>
+		                <option value="CA">Afghanistan</option>
+		                <option value="AX">Aland Islands</option>
+		                <option value="AL">Albania</option>
+		                <option value="DZ">Algeria</option>
+		                <option value="AS">American Samoa</option>
+		            </select>
+					<div class="hidden_container" id="subdivision_container">
+						<label for="subdivision">Province:</label>
+			            <select name="subdivision" form="profile_form" id="select_subdivision" onclick="checkSubdivision(this)">
+			                <option value="" selected>---Select---</option>
+			                <option value="CA">Afghanistan</option>
+			                <option value="AX">Aland Islands</option>
+			                <option value="AL">Albania</option>
+			                <option value="DZ">Algeria</option>
+			                <option value="AS">American Samoa</option>
+			            </select>
+	    				<div class="hidden_container" id="location_container">
+							<label for="location">City/Town:</label>
+				            <select name="location" form="profile_form" id="select_location">
+				                <option value="" selected>---Select---</option>
+				                <option value="AF">Afghanistan</option>
+				                <option value="AX">Aland Islands</option>
+				                <option value="AL">Albania</option>
+				                <option value="DZ">Algeria</option>
+				                <option value="AS">American Samoa</option>
+				            </select>
+				        </div>
+			        </div>
+
+					<hr>
+					<h2>Weekly Needs Email</h2>
+
+					<p>
+						Stay up to date with the needs of your community. Sign up to recieve a weekly email of the needs of an EFP of your choice.
+					</p>
+
+					<label for="receive_newsletter">Receive F2F Weekly Needs Email:</label>
+					<input type="checkbox" name="receive_newsletter" value="receive" onclick="checkChecked(this)"><br>
+
+					<div class="hidden_container" id="newsletter_container">
+						<label for="dotw_newsletter">Recieve on:</label>
+						<select name="dotw_newsletter" form="signup_form">
+			                <option value="" selected>---Select---</option>
+			                <option value="1">Monday</option>
+			                <option value="2">Tuesday</option>
+			                <option value="3">Wednesday</option>
+			                <option value="4">Thursday</option>
+			                <option value="5">Friday</option>
+			                <option value="6">Saturday</option>
+			                <option value="0">Sunday</option>
+			            </select><br>
+						<label for="preferedEFP_newsletter">Recieve For:</label>
+						<select name="preferedEFP_newsletter" form="signup_form">
+			                <option value="" selected>---Select---</option>
+			                <option value="1">EFP1</option>
+			                <option value="2">EFP2</option>
+			                <option value="3">EFP3</option>
+			                <option value="4">EFP4</option>
+			                <option value="5">EFP5</option>
+			                <option value="6">EFP6</option>
+			                <option value="0">EFP7</option>
+			            </select><br>
+			        </div>
+						<hr>
+					<!-- <div class="center"><input type="Submit" value="Sign Up"></div> -->
+				</form>
+				<!-- TEMPORARY FOR DISPLAY PURPOSES ONLY -->
+				<div class="center-contents">
+					<FORM>
+						<INPUT TYPE="button" value="Signup" onClick="parent.location='../Locations/index.html'">
+					</FORM>
+				</div>
+				<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

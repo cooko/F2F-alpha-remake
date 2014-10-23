@@ -1,0 +1,28 @@
+/*
+-----------------------------------------------
+Universal Positioning
+-----------------------------------------------
+*/
+.center-vertical{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.center-contents{
+  text-align: center;
+}
+.split{
+  overflow: hidden;
+}
+
+.split .left{
+  width: 49%;
+  height:100%;
+  float: left;
+}
+
+.split .right{
+  width: 49%;
+  height:100%;
+  float: right;
+}

@@ -1,0 +1,22 @@
+/*
+-----------------------------------------------
+Header and Header Content
+-----------------------------------------------
+*/
+#header-hero {
+  height: 40%;
+  background-color: #2F2A23;
+  border-bottom: 10px #404040 solid;
+  text-align: center;
+}
+#header {
+  height: 70px;
+  background-color: #2F2A23;
+  border-bottom: 10px #404040 solid;
+  text-align: center;
+}
+
+#header-logo {
+  width:  70px;
+}
+/*

@@ -1,0 +1,115 @@
+/*-----------------------------------------*/
+/*    Header
+/*-----------------------------------------*/
+#header {
+  height: 75px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color:#bada55;
+  font-family: 'Viga', sans-serif;
+
+}
+
+#head-logo{
+  width:50px;
+  position: absolute;
+  top: -10px;
+  left: 210px;
+  width: 60px;
+}
+a:link{
+  color:#bada55;
+}
+a:visited{
+  color:#bada55;
+}
+a:hover{
+    color:#D8F482;
+}
+nav{
+  position:absolute;
+}
+/*-----------------------------------------*/
+/*    content
+/*-----------------------------------------*/
+#trim{
+  border-width: 20px 0px 0px;
+  border-image: url("../img/trim-grass.png") 70 0 0 round;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#content {
+  background: white;
+  height:200%;
+  border: 10px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  /*margin-top: 30px;*/
+  margin-bottom: 30px;
+
+  padding-top:  20px;
+
+  -webkit-box-shadow: 0px 10px 29px 0px rgba(50, 50, 50, 0.27);
+  -moz-box-shadow:    0px 10px 29px 0px rgba(50, 50, 50, 0.27);
+  box-shadow:         0px 10px 29px 0px rgba(50, 50, 50, 0.27);
+}
+.section{
+    padding: 2% 5% 2% 5%;
+}
+#hero{
+  height:320px;
+  background-image: url(../img/hero.png);
+  background-size: 100% ;
+  background-position: 0px -240px;
+
+}
+.hero-text{
+  color: white;
+  font-size: 2em;
+  font-family: 'Viga', sans-serif;
+}
+.first{
+  height:320px;
+  background-image: url(../img/hero.png);
+  background-size: 100% ;
+  background-position: 0px -240px;
+
+  /*  background-color: grey; */
+  /*background-image: url("../img/landing-img.jpg"); */
+}
+p{
+  color:#4D4D4D;
+  line-height:1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.intro-p::first-letter { 
+    font-size: 300%;
+    color: #Bada55;
+}
+.guide-img{
+  margin: 0% 0% 0% 0%;
+}
+input{
+  width:100%;
+}
+#login-container{
+  margin: 0% 10%;
+}
+/*-----------------------------------------*/
+/*    All
+/*-----------------------------------------*/
+body{
+  margin:0px;
+  background:#EEEBDA;
+
+}
+h2{
+  color:#bada55;
+  font-family: 'Viga', sans-serif;
+
+}
+nav{
+  font-size: 1.3em;
+text-align: right;
+}

@@ -1,0 +1,114 @@
+h1{
+  color: white;
+  font-size: 100px;
+  font-family: 'Viga', sans-serif;
+}
+h2{
+  color: white;
+  font-size: 50px
+}
+body{
+  margin:0;
+}
+button{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+/*
+-----------------------------------------------
+Sticky bar (login/signup section)
+-----------------------------------------------
+*/
+#sticky{
+  /*position: fixed;
+  left: 90%;*/
+}
+/*
+-----------------------------------------------
+Header and Header Content
+-----------------------------------------------
+*/
+#header {
+  height: 40%;
+  background-color: #2F2A23;
+  border-bottom: 10px #Bada55 solid;
+  text-align: center;
+}
+#header-logo {
+  width:  70px;
+}
+/*
+-----------------------------------------------
+Main Content Style
+-----------------------------------------------
+*/
+#content {
+  height: 60%;
+}
+.section{
+  padding: 10px;
+  border-bottom: 2px #D3D3D3 dashed;
+
+}
+#intro-p{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#guide-container{
+  text-align: center;
+}
+.guide-img{
+    margin: 10px;
+}
+/*
+-----------------------------------------------
+Universal Positioning
+-----------------------------------------------
+*/
+.center-vertical{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.center-contents{
+  text-align: center;
+}
+.split{
+  overflow: hidden;
+}
+
+.split .left{
+  width: 49%;
+  float: left;
+}
+
+.split .right{
+  width: 49%;
+  float: right;
+}
+
+.round-button {
+    display:block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+}
+.round-button:hover {
+    background: #262626;
+}
+
+#header-buttons {
+  position: absolute;
+  top:25px;
+  right:10px;
+}

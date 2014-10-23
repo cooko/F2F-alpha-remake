@@ -1,0 +1,85 @@
+hr {
+  border-top: 1px dashed #ccc;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width:90%;
+}
+nav {
+  text-align: right;
+  line-height: 65px;
+}
+
+#page_container{
+	margin: 0 10% 0 10%;
+}
+
+.split{
+}
+
+.split .left{
+	width: 49%;
+	float: left;
+}
+
+.split .right{
+	width: 49%;
+	float: right;
+}
+
+.center{
+	text-align: center
+}
+
+input:not([type=submit]):not([type=file]):not([type=checkbox]) {
+	width: 100%;
+	margin: 5px 0px 5px 0;
+}
+input[type=submit]{
+	width: 20em;
+}
+label {
+	margin: 0 20px 0 0;
+}
+select {
+	width:100%;
+}
+.hidden_container{
+	display:none;
+}
+
+#header{
+	height: 70px;
+	background-color: #2F2A23;
+}
+
+#header-logo{
+  width:  70px;
+}
+
+/*
+-----------------------------------------------
+Universal Positioning
+-----------------------------------------------
+*/
+.center-vertical{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.center-contents{
+  text-align: center;
+}
+.split{
+  overflow: hidden;
+}
+
+.split .left{
+  width: 49%;
+  float: left;
+}
+
+.split .right{
+  width: 49%;
+  float: right;
+}
